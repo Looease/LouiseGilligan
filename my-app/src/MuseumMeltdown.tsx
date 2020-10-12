@@ -1,5 +1,6 @@
 import React from 'react';
 import './Projects.css'
+// import accessibility from './img/accessibility';
 
 
 export const MuseumMeltdown = () => {
@@ -27,7 +28,7 @@ export const MuseumMeltdown = () => {
 
           </div>
           <div id="container">
-          <img src="img/accessibility/17.jpg" alt="Avatar" id="image"></img>
+          <img src="./img/accessibility/17.jpg" alt="Avatar" id="image"></img>
           <div id="overlay">
             <div id="text">Informative homepage</div>
           </div>
