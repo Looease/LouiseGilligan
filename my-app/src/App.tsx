@@ -1,26 +1,31 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, useParams } from "react-router-dom";
-import './App.css';
-import {Header} from './Header'
+import './style.css';
+import {Header} from './Components/Header'
+import {Footer} from './Components/Footer'
+import {HomePage} from './HomePage'
+import {Projects} from './Projects'
+import {KblSolutions} from './KblSolutions'
+import {MuseumMeltdown} from './MuseumMeltdown'
 
-function App() {
+export const App = () => {
   return (
     <Router>
     <Header></Header>
-    {/* <Switch>
+     <Switch>
       <Route exact path='/'>
         <HomePage />
       </Route>
-      <Route exact path="/books">
-        <BooksList />
+      <Route exact path="/projects">
+        <Projects />
       </Route>
-      <Route path="/books/:id">
-        <IndividualBook />
+      <Route exact path="/projects/kblsolutions">
+        <KblSolutions />
       </Route>
-      <Route exact path="/add/book">
-        <AddBook />
+      <Route exact path="/projects/museum-meltdown">
+        <MuseumMeltdown />
       </Route>
-      <Route exact path="/members">
+      {/* <Route exact path="/members">
         <MembersList />
       </Route>
       <Route exact path="/members/:id">
@@ -28,9 +33,23 @@ function App() {
       </Route>
       <Route exact path="/add/member">
         <AddMember />
-      </Route>
+      </Route> */}
     </Switch>
-    <Footer></Footer> */}
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <Footer></Footer>
   </Router>
   );
 }

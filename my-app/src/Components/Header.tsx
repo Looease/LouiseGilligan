@@ -1,11 +1,11 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import './App.css';
-import styles from "./Header.module.css"
+import '../style.css'
+import './Header.css'
 
-export function Header() {
+export const Header = () => {
     return(
-        <div className={styles.navcontainer}>
+        <div className="navcontainer">
         <nav className="nav">
           <Link to="index.html"><h2 className="logo">Louise Gilligan </h2>
           </Link>
