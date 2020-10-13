@@ -19,7 +19,7 @@ export const MuseumMeltdown = () => {
         </button>
         <p id="mobileTap">Tap below</p>
       </section>
-      <br></br>
+            <br></br>
             <br></br>
             <br></br>
             <br></br>

@@ -7,6 +7,7 @@ import {HomePage} from './HomePage'
 import {Projects} from './Projects'
 import {KblSolutions} from './KblSolutions'
 import {MuseumMeltdown} from './MuseumMeltdown'
+import {Resources} from './Resources'
 
 export const App = () => {
   return (
@@ -25,10 +26,10 @@ export const App = () => {
       <Route exact path="/projects/museum-meltdown">
         <MuseumMeltdown />
       </Route>
-      {/* <Route exact path="/members">
-        <MembersList />
+      <Route exact path="/resources">
+        <Resources />
       </Route>
-      <Route exact path="/members/:id">
+      {/* <Route exact path="/members/:id">
         <IndividualMember />
       </Route>
       <Route exact path="/add/member">
