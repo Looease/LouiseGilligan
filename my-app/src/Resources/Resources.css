@@ -1,0 +1,117 @@
+/*********** Resource Pages ********/
+.resourceBody{
+  background-color: #000000;
+  background-image: url(../img/background/res.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  margin: 0px;
+  /* background-color: #F1E3B2; */
+}
+
+.mainSection, .myStory{
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* margin: 200px 20px 20px 20px; */
+}
+.resourceMain{
+  margin: 150px 10% 0px 10%;
+  padding: 20px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+}
+.myStoryWrap{
+  margin: 0 10% 0 10%;
+  padding: 5px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+}
+.img-box{
+  margin: 0px;
+  width: 50%;
+  /* border: solid 2px white; */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.img-box img{
+  /* max-width: 95%; */
+  max-height: 35vh;
+  box-shadow: 0px 0px 18px #21295C60;
+}
+.img-box img:hover{
+  box-shadow: 2px 2px 12px rgba(60,60,60,0.7);
+}
+.text-box{
+  padding: 15px;
+  /* border: solid 2px white; */
+  width: 50%;
+  height: auto;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 10px;
+}
+.text-box-content{
+    font-size: 1.01em;
+    border: solid 2px white;
+    border-radius: 10px;
+    height: 30vh;
+    text-align: center;
+    vertical-align: middle;
+}
+.text-box-content p{
+  padding: 0px 5px 0px 5px;
+  margin-top: 5%;
+}
+.green{
+  background-color: #8cca8c;
+}
+.yellow{
+  background-color: #FCF5B1
+}
+.pink{
+  background-color: #F6C8C8;
+}
+
+.me{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.picOfMe{
+  max-width: 500px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 915px){
+  .resourceMain{
+    font-size: 0.75;
+  }
+  .text-box{
+    padding: 15px;
+  }
+  .text-box-content{
+  padding: 0px;
+  }
+  .text-box-content p{
+    padding: 9px;
+    margin: 0px;
+    font-size: 0.75em;
+  }
+  
+}

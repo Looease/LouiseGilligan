@@ -1,20 +1,19 @@
 import React from 'react';
-import './style.css'
 import './Resources.css'
 
 
 export const Resources = () => {
     return (
-        <section>
+        <div className="resourceBody">
             <main className="mainSection">
                 <ul className="resourceMain">
                     <li className="resourceIntro">
                         <h1>Resources</h1></li>
-                    <li className="resourceIntro"><p>
+                    <li className="resourceIntro">
                         I started my career in tech sales and, after an education in the Arts, realised technology was where my passion lied. I wanted to be able to work on software that could change the world whilst being creative and challenged.
         <br></br>
         When I was considering moving from sales to software engineering, I did not always know what to expect or where to look for resources. I wanted to add this page as a resource for anyone who is interested in moving into software engineering and to give some tips on finding a job.
-        </p></li>
+        </li>
                 </ul>
                 <br></br>
                 <br></br>
@@ -22,7 +21,7 @@ export const Resources = () => {
             <article className="myStory">
                 <ul className="myStoryWrap">
                     <li className="img-box">
-                        <img src="img/earlyWork/55.jpg" alt=""></img>
+                        <img src={require("../img/earlyWork/55.jpg")} alt=""></img>
                     </li>
                     <li className="text-box green">
                         <div className="text-box-content">
@@ -47,12 +46,12 @@ export const Resources = () => {
                             </p>
                         </div>
                     </li>
-                    <li className="img-box"><img src="img/earlyWork/29.5.jpg" alt=""></img></li>
+                    <li className="img-box"><img src={require("../img/earlyWork/29.5.jpg")} alt=""></img></li>
                 </ul>
                 <ul className="myStoryWrap">
                     <li className="img-box">
-                        <img src="img/earlyWork/34.jpg" alt=""></img>
-                        <img src="img/earlyWork/29.6.jpg" alt=""></img>
+                        <img src={require("../img/earlyWork/34.jpg")} alt=""></img>
+                        <img src={require("../img/earlyWork/29.6.jpg")} alt=""></img>
                     </li>
                     <li className="text-box pink">
                         <div className="text-box-content">
@@ -73,12 +72,12 @@ export const Resources = () => {
                                 It starts off very basic and there are simple code alongs to get you used to it.  </p>  
                         </div>
                     </li>
-                    <li className="img-box"><img src="img/earlyWork/38.jpg" alt=""></img>
+                    <li className="img-box"><img src={require("../img/earlyWork/38.jpg")} alt=""></img>
                     </li>
                 </ul>
 
                 <ul className="myStoryWrap">
-                    <li className="img-box"><img src="img/earlyWork/30.jpg" alt=""></img></li>
+                    <li className="img-box"><img src={require("../img/earlyWork/30.jpg")} alt=""></img></li>
                     <li className="text-box yellow">
                         <div className="text-box-content">
                             <p>
@@ -100,11 +99,11 @@ export const Resources = () => {
             </p>
                         </div>
                     </li>
-                    <li className="img-box"><img src="img/earlyWork/33.jpg" alt=""></img>
+                    <li className="img-box"><img src={require("../img/earlyWork/33.jpg")} alt=""></img>
                     </li>
                 </ul>
                 <ul className="myStoryWrap">
-                    <li className="img-box"><img src="img/earlyWork/31.jpg" alt=""></img>
+                    <li className="img-box"><img src={require("../img/earlyWork/31.jpg")} alt=""></img>
                     </li>
                     <li className="text-box green">
                         <div className="text-box-content">
@@ -128,10 +127,10 @@ export const Resources = () => {
             </p>
                         </div>
                     </li>
-                    <li className="img-box"><img src="img/earlyWork/37.jpg" alt=""></img></li>
+                    <li className="img-box"><img src={require("../img/earlyWork/37.jpg")} alt=""></img></li>
                 </ul>
                 <ul className="myStoryWrap">
-                    <li className="img-box"><img src="img/earlyWork/40.jpg" alt=""></img>
+                    <li className="img-box"><img src={require("../img/earlyWork/40.jpg")} alt=""></img>
                     </li>
                     <li className="text-box pink">
                         <div className="text-box-content">
@@ -154,11 +153,11 @@ export const Resources = () => {
             </p>
                         </div>
                     </li>
-                    <li className="img-box"><img src="img/earlyWork/39.jpg" alt=""></img>
+                    <li className="img-box"><img src={require("../img/earlyWork/39.jpg")} alt=""></img>
                     </li>
                 </ul>
                 <ul className="myStoryWrap">
-                    <li className="img-box"><img src="img/earlyWork/35.jpg" alt=""></img></li>
+                    <li className="img-box"><img src={require("../img/earlyWork/35.jpg")} alt=""></img></li>
                     <li className="text-box yellow">
                         <div className="text-box-content">
                             <p>
@@ -182,11 +181,11 @@ export const Resources = () => {
                             </p>
                         </div>
                     </li>
-                    <li className="img-box"><img src="img/earlyWork/36.jpg" alt=""></img>
+                    <li className="img-box"><img src={require("../img/earlyWork/36.jpg")} alt=""></img>
                     </li>
                 </ul>
                 <ul className="myStoryWrap">
-                    <li className="img-box"><img src="img/earlyWork/44.jpg" alt=""></img></li>
+                    <li className="img-box"><img src={require("../img/earlyWork/44.jpg")} alt=""></img></li>
                     <li className="text-box green">
                         <div className="text-box-content">
                             <p>
@@ -209,10 +208,10 @@ export const Resources = () => {
             </p>
                         </div>
                     </li>
-                    <li className="img-box"><img src="img/earlyWork/41.jpg" alt=""></img></li>
+                    <li className="img-box"><img src={require("../img/earlyWork/41.jpg")} alt=""></img></li>
                 </ul>
                 <ul className="myStoryWrap">
-                    <li className="img-box"><img src="img/earlyWork/49.jpg" alt=""></img></li>
+                    <li className="img-box"><img src={require("../img/earlyWork/49.jpg")} alt=""></img></li>
                     <li className="text-box pink">
                         <div className="text-box-content">
                             <p>
@@ -240,14 +239,10 @@ export const Resources = () => {
                         </div>
                     </li>
                     <li className="img-box">
-                        <img src="img/earlyWork/43.jpg" alt=""></img>
+                        <img src={require("../img/earlyWork/43.jpg")} alt=""></img>
                     </li>
                 </ul>
             </article>
-
-            <ul className="me">
-                <li><img src="img/me.jpg" alt="" className="picOfMe"></img></li>
-            </ul>
-        </section>
+        </div>
     )
 }
